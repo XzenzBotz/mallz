@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Akmal Naswa Sebastiano</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background: #000 url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+    .nav-icons {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-icons a {
+      color: #fff;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+    .nav-icons a:hover {
+      color: #00ffcc;
+    }
+    section {
+      padding: 100px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    #hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: rgba(0, 0, 0, 0.6);
+      padding-top: 150px;
+      border-radius: 15px;
+    }
+    #hero img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00ffcc;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+    .info {
+      max-width: 500px;
+    }
+    h1, h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+    ul li::before {
+      content: "\2022";
+      color: #00ffcc;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .parallax {
+      background-image: url('background.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      min-height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .parallax h1 {
+      color: white;
+      font-size: 2rem;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      display: flex;
+      gap: 15px;
+    }
+    .footer a {
+      color: white;
+      font-size: 20px;
+    }
+    .edu-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-icons">
+      <a href="#about"><i class="fas fa-user"></i></a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i></a>
+      <a href="#experience"><i class="fas fa-briefcase"></i></a>
+      <a href="#skills"><i class="fas fa-cogs"></i></a>
+      <a href="#hobby"><i class="fas fa-heart"></i></a>
+      <a href="#music"><i class="fas fa-music"></i></a>
+    </div>
+  </header>
+
+  <section id="hero">
+    <img src="profile.jpg" alt="Foto Akmal" />
+    <div class="info">
+      <h1>Akmal Naswa Sebastiano</h1>
+      <p>Email: akmal@example.com</p>
+      <p>Telepon: 0812-3456-7890</p>
+      <p>TikTok: @akmalnaswa</p>
+    </div>
+  </section>
+
+  <section id="about" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Tentang Saya</h2>
+    <p>Saya, Akmal Naswa Sebastiano, adalah lulusan jurusan Peternakan Agribisnis Ruminansia dari SMK Negeri 1 Cangkringan...</p>
+  </section>
+
+  <section id="education" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Pendidikan</h2>
+    <p class="edu-title">2022 - 2025 | SMK Negeri 1 Cangkringan | Jurusan Agribisnis Ternak Ruminansia</p>
+    <p>Jurusan ini adalah program keahlian yang mempelajari cara budidaya, perawatan, dan manajemen ternak ruminansia...</p>
+    <br />
+    <p class="edu-title">2019 - 2022 | SMP Negeri 2 Ngemplak</p>
+  </section>
+
+  <section id="experience" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Pengalaman Kerja</h2>
+    <p>2024-2025 | Praktik Kerja Lapangan | Kandang Barokah 354</p>
+    <ul>
+      <li>Memindahkan ternak ruminansia secara aman dan sesuai prosedur.</li>
+      <li>Mengidentifikasi kondisi fisiologis ternak seperti suhu, nafsu makan, dan perilaku.</li>
+      <li>Mengamati aktivitas harian ternak untuk mendeteksi tanda-tanda penyakit.</li>
+      <li>Mengembangkan dan mengelola tanaman pakan seperti rumput gajah dan odot.</li>
+      <li>Menyusun rencana pemberian pakan ternak berdasarkan kebutuhan gizi.</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Kemampuan</h2>
+    <ul>
+      <li>Kerja sama tim</li>
+      <li>Disiplin dan bertanggung jawab</li>
+      <li>Etika kerja</li>
+      <li>Cepat belajar dan mudah beradaptasi</li>
+    </ul>
+  </section>
+
+  <section id="hobby" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Hobby</h2>
+    <ul>
+      <li>Swimming</li>
+      <li>Badminton</li>
+      <li>Jogging</li>
+      <li>Listening to music</li>
+      <li>Photography</li>
+      <li>Watching movies</li>
+    </ul>
+  </section>
+
+  <section id="music" class="animate-on-scroll" data-animate="animate__fadeInUp">
+    <h2>Music Favorite</h2>
+    <p>Playlist favorit saya di Spotify:</p>
+    <a href="https://open.spotify.com/playlist/Lavora-Nresnani" target="_blank">Lavora - Nresnani</a>
+  </section>
+
+  <section class="parallax">
+    <h1>Terima kasih telah melihat CV saya!</h1>
+  </section>
+
+  <div class="footer">
+    <a href="mailto:akmal@example.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://wa.me/6281234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://tiktok.com/@akmalnaswa" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const animation = el.getAttribute("data-animate");
+          el.classList.add("animate__animated", animation);
+          observer.unobserve(el);
+        }
+      });
+    });
+    document.querySelectorAll(".animate-on-scroll").forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
